@@ -130,7 +130,6 @@ export default class TransactionScreen extends React.Component {
         }
       });
     }
-
     return transactionType;
   };
 
@@ -154,7 +153,7 @@ export default class TransactionScreen extends React.Component {
           isStudentEligible = true;
         } else {
           isStudentEligible = false;
-          Alert.alert("The student has already issued 2 books!");
+          Alert.alert("The student has already issued 2 books! if you wnat to issue another book you should get aur package of $1,000,000 so ypu can issue th third one");
           this.setState({
             scannedStudentId: "",
             scannedBookId: ""
